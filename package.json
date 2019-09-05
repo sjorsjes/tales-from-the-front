@@ -1,0 +1,22 @@
+{
+  "name": "tales-from-the-front",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Sjors Spoorendonk",
+  "license": "ISC",
+  "homepage": "https://github.com/sjorsjes/tales-from-the-front#readme",
+  "bugs": {
+    "url": "https://github.com/sjorsjes/tales-from-the-front/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjorsjes/tales-from-the-front.git"
+  },
+  "scripts": {
+    "dev": "eleventy --input=source --output=dist --serve --port=3000 --passthroughall",
+    "build": "eleventy --input=source --output=dist"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}

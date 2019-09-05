@@ -1,0 +1,12 @@
+---
+layout: base
+title: Tales from the front
+---
+
+{{ content | safe }}
+
+<ul>
+	{%- for tour in collections.tour -%}
+		<li>{{ tour.data.title }}</li>
+	{%- endfor -%}
+</ul>
