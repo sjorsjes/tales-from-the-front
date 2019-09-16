@@ -1,10 +1,9 @@
 ---
-tags: tour
-layout: tour
 title: De Nederlandse Commando's in de 'Slag om de Schelde'
 subtitle:
 tourdate:
 rendezvous: Zeelandhallen Goes
+slug: de-nederlandse-commandos-in-de-slag-om-de-schelde'
 ---
 
 Op 1 november 1944 om 04.40u verlieten landingsboten het haventje van Breskens. Over de hoofden van de mannen in de boten gierden de artilleriegranaten die vanuit Zeeuws Vlaanderen werden afgevuurd op Vlissingen. De stad was het doel van de landingsboten. De stad met de aanwezige bunkers en geschut domineerde de monding van de rivier De Schelde, de toegang naar de belangrijke haven van Antwerpen.

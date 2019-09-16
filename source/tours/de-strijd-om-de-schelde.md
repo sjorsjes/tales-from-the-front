@@ -1,10 +1,9 @@
 ---
-tags: tour
-layout: tour
 title: De 'Strijd om de Schelde'
 subtitle: Het verhaal van militairen en burgers tijdens de bevrijding van Zuidwest Nederland.
 tourdate:
 rendezvous: café Non Plus Ultra te Woensdrecht
+slug: de-strijd-om-de-schelde
 ---
 
 Op 4 september 1944 viel de grote haven van Antwerpen in handen van de geallieerden, zonder dat de Duitsers de kans hadden gekregen de haveninstallaties te vernielen. Pas drie maanden later, op 28 november, liepen de eerste geallieerde schepen de Antwerpse haven binnen met de zo hoognodige voorraden die onontbeerlijk waren om Hitler-Duitsland te verslaan. Maar wat heeft zich dan afgespeeld in deze drie maanden? Het verhaal is een verschrikkelijke strijd tegen kou, regen en modder. Ook tegen een Duitse vijand die zelfs elite-eenheden in de strijd wierp om het gebruik van de haven te ontzeggen.

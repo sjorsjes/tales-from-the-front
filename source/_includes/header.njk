@@ -1,11 +1,14 @@
-<header>
-	<h1>
-		<a href="{{ '/' | url }}">{{ title }}</a>
-	</h1>
+<nav class="navigation">
+	<a href="{{ '/' | url }}" class="navigation__logo">
+		<img src="/img/logo.png" alt="Tales from the front" />
+	</a>
 
-	<ul class="nav">
-		{%- for nav in collections.nav | reverse -%}
-			<li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
-		{%- endfor -%}
-	</ul>
-</header>
+	<ol class="navigation__list">
+		<li class="navigation__list-item {% if page.url === '/' %}is-active{% endif %}"><a href="/"  class="navigation__list-item-link" {% if page.url === "/" %}aria-current="page"{% endif %}>Home</a></li>
+		<li class="navigation__list-item {% if page.url === '/tours/' %}is-active{% endif %}"><a href="/tours"  class="navigation__list-item-link" {% if page.url === "/tours/" %}aria-current="page"{% endif %}>Tours</a></li>
+	</ol>
+
+	<div class="navigation__contact">
+		<a href="/contact" class="navigation__list-item-link">Contact</a>
+	</div>
+</nav>

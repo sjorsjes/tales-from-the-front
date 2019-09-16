@@ -19,14 +19,18 @@ title: test
 	<style>
 		{{ css | cssmin | safe }}
 	</style>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
-	{% include 'header.njk' %}
+	<div class="wrapper">
+		{% include 'header.njk' %}
 
-	<main>
-		{{ content | safe }}
-	</main>
+		<main>
+			{{ content | safe }}
+		</main>
 
-	{% include 'footer.njk' %}
+		{% include 'footer.njk' %}
+	</div>
 </body>
 </html>
