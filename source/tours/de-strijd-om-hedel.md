@@ -1,7 +1,8 @@
 ---
 title: De strijd om Hedel
-subtitle:
+subtitle: Het verhaal van militairen en burgers tijdens de bevrijding van Hedel
 tourdate: 21 juni
+date: 2019-10-21
 rendezvous: Zeelandhallen Goes
 slug: de-strijd-om-hedel
 ---

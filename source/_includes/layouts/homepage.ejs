@@ -1,0 +1,60 @@
+---
+layout: base
+title: Tales from the front
+---
+
+<div class="home-header">
+	<div class="home-header__content">
+		<h1 class="home-header__title"><%= title %></h1>
+		<h2 class="home-header__subtitle"><%= subtitle %></h2>
+	</div>
+
+	<div class="home-header__gradient"></div>
+
+	<img class="home-header__visual" sizes="(max-width: 3471px) 100vw, 3471px"
+		srcset="
+			/img/homepage-header_480.jpg 480w,
+			/img/homepage-header_1430.jpg 1430w,
+			/img/homepage-header_2060.jpg 2060w,
+			/img/homepage-header_2543.jpg 2543w,
+			/img/homepage-header_2946.jpg 2946w,
+			/img/homepage-header_3305.jpg 3305w,
+			/img/homepage-header_3422.jpg 3422w,
+			/img/homepage-header_3471.jpg 3471w"
+		src="/img/homepage-header_1430.jpg"
+		alt="">
+
+	<div class="home-header__upcoming-event">
+		<%
+			const clone = [...collections.tour];
+			const [tour] = clone.reverse();
+		%>
+
+		<% if (Date.now() > new Date(tour.data.date).getTime()) { %>
+			<h3 class="home-header__upcoming-event__title">Wilt u ook op tour met Tales from the front?</h3>
+			<h4 class="home-header__upcoming-event__subtitle">Neemt u dan <a href="/contact">contact</a> met ons op.</h4>
+		<% } else { %>
+			<%
+				const date = new Date(tour.date);
+				const day = ('0' + date.getDate()).slice(-2);
+				const month = ('0' + (date.getMonth() + 1)).slice(-2);
+				const year = date.getFullYear();
+			%>
+
+			<h3 class="home-header__upcoming-event__title">De volgende tour is "<a href="<%= tour.url %>"><%= tour.data.title %></a>" op <%= day %>&ndash;<%= month %>&ndash;<%= year %>.</h3>
+			<h4 class="home-header__upcoming-event__subtitle"><%= tour.data.subtitle %></h4>
+
+			<a href="/contact" class="home-header__upcoming-event__action">Boek<br />tour</a>
+		<% } %>
+	</div>
+</div>
+
+<div class="container">
+	<%- content %>
+
+	<ul>
+		<% collections.tour.forEach((tour) => { %>
+			<li><%= tour.data.title %></li>
+		<% }); %>
+	</ul>
+</div>

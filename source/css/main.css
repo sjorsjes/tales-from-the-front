@@ -7,7 +7,7 @@
 */
 
 body {
-	background: #fff;
+	background: #C9C9C8;
 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -27,57 +27,157 @@ img {
 	max-width: 100%;
 }
 
-.home_header {
-	position: relative;
-	height: 50vh;
-	width: 100%;
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
 }
 
-.home_header-content {
+.home-header {
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+.home-header__content {
 	position: absolute;
-	top: 50%;
+	bottom: 30%;
 	left: 5vw;
 
 	z-index: 1;
 }
 
-.home_header-gradient {
+.home-header__gradient {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 
-	/* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(46, 59, 39, 0.6)); */
-	/* background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(46,59,39,0.7) 100%); */
 	background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(46,59,39,0.5) 55%);
 }
 
-.home_header-title,
-.home_header-subtitle {
+.home-header__gradient:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background: url('/img/green-dust-and-scratches.png') center center repeat;
+
+	content: '';
+}
+
+.home-header__title,
+.home-header__subtitle {
 	margin: 0;
 
 	color: #fff;
 }
 
-.home_header-title {
+.home-header__title {
 	font-size: 4rem;
 }
 
-.home_header-subtitle {
+.home-header__subtitle {
 	max-width: 700px;
 
 	font-weight: normal;
 }
 
-.home_header img {
+.home-header__visual {
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
 }
 
+.home-header__upcoming-event {
+	position: absolute;
+	left: 0;
+	right: 5vw;
+	bottom: -4rem;
+
+	padding: 2rem 2rem 2rem 5vw;
+
+	background-color: #fff;
+	border-top: 4px solid #2E3B27;
+}
+
+.home-header__upcoming-event__title,
+.home-header__upcoming-event__subtitle {
+	margin: 0;
+}
+
+.home-header__upcoming-event__title {
+	margin-bottom: 0.5rem;
+}
+
+.home-header__upcoming-event__subtitle {
+	display: block;
+	max-width: calc(100% - 150px);
+
+	font-weight: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.home-header__upcoming-event__action {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	padding: 2.5rem 4rem 0 2rem;
+
+	background-color: #556D36;
+	border-right: 4px solid rgba(46, 59, 39, 0.5);
+	border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-header__upcoming-event__action:hover {
+	background-color: #2E3B27;
+}
+
+.home-header__upcoming-event__action:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background: url('/img/green-dust-and-scratches.png') center center repeat;
+
+	content: '';
+}
+
+.home-header__upcoming-event__action:after {
+	position: absolute;
+	right: 1.5rem;
+	top: 50%;
+
+	content: '»';
+
+	color: #fff;
+	font-family: serif;
+	font-size: 2.5rem;
+	line-height: 0;
+}
+
 .container {
-	margin: 0 auto;
+	margin: 0 auto 0 5vw;
 	max-width: 1100px;
 }
 
@@ -96,7 +196,17 @@ img {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.navigation__logo,
+.logo {
+	position: absolute;
+	bottom: -1.2rem;
+	left: 5vw;
+
+	box-shadow: 0 0.3rem 0.45em rgba(0,0,0,0.2);
+}
+
+.logo img { display: block; }
+
+.navigation__title,
 .navigation__list,
 .navigation__contact {
 	display: flex;

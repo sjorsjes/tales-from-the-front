@@ -1,0 +1,28 @@
+---
+title: test
+---
+
+<!doctype html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Tales from the front</title>
+
+	<link href="/css/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<%- include('../header.ejs') %>
+
+		<main>
+			<%- content %>
+		</main>
+
+		<%- include('../footer.ejs') %>
+	</div>
+</body>
+</html>
