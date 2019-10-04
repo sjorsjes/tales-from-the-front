@@ -1,0 +1,48 @@
+/* Base colors */
+:root {
+	--color-white: #fff;
+	--color-green: #2e3b27;
+	--color-olive: #556d36;
+	--color-steelblue: #607cac;
+	--color-steelblue-light: #a3b1cc;
+	--color-silver: #c9c9c8;
+
+	--color-text: #1d1d1d;
+	--color-link: var(----color-green);
+
+	--font-face-display: 'Raleway', sans-serif;
+	--font-face-body: 'Roboto', sans-serif;
+
+	--font-weight-light: 100;
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+
+	--font-size-base: 1rem;
+
+	/*
+	--font-size-xxs: (var(--font-size-base) * 0.625);
+	--font-size-xs: (var(--font-size-base) * 0.75);
+	*/
+	--font-size-s: (var(--font-size-base) * 0.875);
+	--font-size-m: var(--font-size-base);
+	--font-size-l: (var(--font-size-base) * 1.5);
+	--font-size-xl: (var(--font-size-base) * 2);
+
+	--border-width: 1px;
+
+	/*
+	--distance-xxxs: 0.125rem;
+	--distance-xxs: 0.25rem;
+	*/
+	--distance-xs: 0.5rem;
+	--distance-s: 0.75rem;
+	--distance-m: 1rem;
+	--distance-l: 1.5rem;
+	/*
+	--distance-xl: 2rem;
+	--distance-xxl: 3rem;
+	*/
+
+	--radius: 0;
+	--radius-full: 100%;
+}

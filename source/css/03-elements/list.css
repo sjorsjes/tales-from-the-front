@@ -1,0 +1,5 @@
+ol,
+ul {
+	margin: 0 auto var(--distance-m);
+	padding: 0 0 0 var(--distance-m);
+}

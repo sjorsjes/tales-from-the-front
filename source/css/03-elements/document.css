@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	color: var(--color-text);
+	font: normal 1rem/1.5 var(--font-face-body);
+	font-display: fallback;
+	font-kerning: normal;
+	text-decoration-skip: ink;
+	text-rendering: optimizeLegibility;
+
+	background: var(--color-silver);
+
+	scroll-behavior: smooth;
+}

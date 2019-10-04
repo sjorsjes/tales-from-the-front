@@ -1,0 +1,13 @@
+img,
+video {
+	width: 100%;
+	height: auto;
+}
+
+img {
+	display: block;
+}
+
+img:focus {
+	filter: brightness(90%);
+}
