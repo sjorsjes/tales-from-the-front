@@ -6,7 +6,7 @@ title: Tales from the front
 <div class="home-header">
 	<div class="home-header__content">
 		<h1 class="home-header__title"><%= title %></h1>
-		<h2 class="home-header__subtitle"><%= subtitle %></h2>
+		<h2 class="home-header__subtitle"><%- subtitle %></h2>
 	</div>
 
 	<div class="home-header__gradient"></div>
@@ -44,7 +44,7 @@ title: Tales from the front
 			<h3 class="home-header__upcoming-event__title">De volgende tour is "<a href="<%= tour.url %>"><%= tour.data.title %></a>" op <%= day %>&ndash;<%= month %>&ndash;<%= year %>.</h3>
 			<h4 class="home-header__upcoming-event__subtitle"><%= tour.data.subtitle %></h4>
 
-			<a href="/contact" class="home-header__upcoming-event__action">Boek<br />tour</a>
+			<a href="/contact" class="home-header__upcoming-event__action">Boek<br /> tour</a>
 		<% } %>
 	</div>
 </div>

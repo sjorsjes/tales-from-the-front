@@ -1,11 +1,14 @@
 .logo {
 	position: absolute;
-	bottom: -1.2rem;
+	top: var(--distance-xl);
 	left: 5vw;
 
-	box-shadow: 0 0.3rem 0.45em rgba(0, 0, 0, 0.2);
+	z-index: 3;
+	display: none;
 }
 
-.logo img {
-	display: block;
+@media (--medium) {
+	.logo {
+		display: block;
+	}
 }
