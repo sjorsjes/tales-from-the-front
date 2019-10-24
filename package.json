@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
-    "dev:css": "postcss ./source/css/main.css --map --output ./dist/css/main.min.css --watch true",
+    "dev:css": "postcss ./source/css/main.css --map --output ./source/css/main.min.css --watch true",
     "dev:eleventy": "eleventy --input=source --output=dist --serve --port=3000 --passthroughall",
     "build": "eleventy --input=source --output=dist"
   },
@@ -29,7 +29,7 @@
     "postcss-import": "^12.0.1",
     "postcss-media-variables": "^2.0.1",
     "postcss-nested": "^4.1.2",
-    "stylelint": "^11.0.0",
+    "stylelint": "^11.1.1",
     "stylelint-config-vi": "^1.5.0"
   },
   "dependencies": {}

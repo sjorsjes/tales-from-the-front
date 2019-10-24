@@ -14,7 +14,7 @@ module.exports = {
 			preserve: false,
 		}),
 		mediaVariables(),
-		mqPacker(),
+		// mqPacker(),
 		cssnano({
 			preset: 'default',
 		}),

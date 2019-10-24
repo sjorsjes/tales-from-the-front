@@ -1,0 +1,21 @@
+.card {
+	background-color: var(--color-white);
+}
+
+.card__content {
+	padding: var(--distance-m) 0;
+}
+
+@media (--small) {
+	.card__content {
+		padding: var(--distance-xl) 5vw;
+	}
+
+	.card--no-padding .card__content {
+		padding: var(--distance-xl) 0;
+	}
+
+	.card--no-padding .card__title {
+		padding-left: 5vw;
+	}
+}

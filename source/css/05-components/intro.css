@@ -1,0 +1,29 @@
+.intro {
+	display: block;
+}
+
+@media (--small) {
+	.intro {
+		margin-left: -5vw;
+		padding-left: 5vw;
+
+		border-left: 4px solid var(--color-olive);
+	}
+}
+
+@media (--medium) {
+	.intro p { margin: 0; }
+
+	.intro--column-2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: var(--distance-xl);
+	}
+}
+
+@media (--xlarge) {
+	.intro {
+		padding-top: var(--distance-m);
+		padding-bottom: var(--distance-m);
+	}
+}

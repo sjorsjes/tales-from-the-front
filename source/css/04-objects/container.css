@@ -1,5 +1,11 @@
 .container {
 	max-width: 75rem;
 
-	margin: 0 auto 0 5vw;
+	margin: 0 5vw;
+}
+
+@media (--xlarge) {
+	.container {
+		margin: 0 auto;
+	}
 }

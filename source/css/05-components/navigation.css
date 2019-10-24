@@ -52,7 +52,7 @@
 /* --------------------------------------------- */
 .navigation__checkbox__label {
 	position: absolute;
-	top: 5vw;
+	top: var(--distance-xxl);
 	right: 5vw;
 
 	z-index: 5;

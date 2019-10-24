@@ -24,37 +24,70 @@ title: Tales from the front
 		src="/img/homepage-header_1430.jpg"
 		alt="">
 
-	<div class="home-header__upcoming-event">
+	<%
+		const clone = [...collections.tour];
+		const [tour] = clone.reverse();
+		const hasUpcomingTour = Date.now() > new Date(tour.data.date).getTime();
+	%>
+
+	<% if (hasUpcomingTour) { %>
+		<a href="/contact" class="home-header__upcoming-event">
+			<span class="home-header__upcoming-event__title">Wilt u ook op tour met <span class="nobreak">Tales from the front?</span></span>
+		</a>
+	<% } else { %>
 		<%
-			const clone = [...collections.tour];
-			const [tour] = clone.reverse();
+			const date = new Date(tour.date);
+			const day = ('0' + date.getDate()).slice(-2);
+			const month = ('0' + (date.getMonth() + 1)).slice(-2);
+			const year = date.getFullYear();
 		%>
 
-		<% if (Date.now() > new Date(tour.data.date).getTime()) { %>
-			<h3 class="home-header__upcoming-event__title">Wilt u ook op tour met Tales from the front?</h3>
-			<h4 class="home-header__upcoming-event__subtitle">Neemt u dan <a href="/contact">contact</a> met ons op.</h4>
-		<% } else { %>
-			<%
-				const date = new Date(tour.date);
-				const day = ('0' + date.getDate()).slice(-2);
-				const month = ('0' + (date.getMonth() + 1)).slice(-2);
-				const year = date.getFullYear();
-			%>
-
-			<h3 class="home-header__upcoming-event__title">De volgende tour is "<a href="<%= tour.url %>"><%= tour.data.title %></a>" op <%= day %>&ndash;<%= month %>&ndash;<%= year %>.</h3>
-			<h4 class="home-header__upcoming-event__subtitle"><%= tour.data.subtitle %></h4>
-
-			<a href="/contact" class="home-header__upcoming-event__action">Boek<br /> tour</a>
-		<% } %>
-	</div>
+		<a href="<%= tour.url %>" class="home-header__upcoming-event">
+			<span class="home-header__upcoming-event__title">
+				De volgende tour, "<%= tour.data.title %>", is op <span class="nobreak"><%= day %>-<%= month %>-<%= year %>.</span>
+			</span>
+		</a>
+	<% } %>
 </div>
 
 <div class="container">
-	<%- content %>
+	<div class="card">
+		<div class="card__content">
+			<div class="intro intro--column-2">
+				<p>Tales from the Front organiseert  Battlefield Tours voor groepen maar ook voor de individuele ontdekkingsreiziger. Het doel is om het enorme offer te blijven herinneren wat in de strijd voor de vrijheid is gedaan.</p>
 
-	<ul>
-		<% collections.tour.forEach((tour) => { %>
-			<li><%= tour.data.title %></li>
-		<% }); %>
-	</ul>
+				<p>Wij zijn gepassioneerd om onze kennis te delen over de verschillende slagvelden van de Tweede Wereldoorlog en te vertellen over het wel en wee van de militairen in de gevechten.</p>
+			</div>
+		</div>
+	</div>
+	<div class="card card--no-padding">
+		<div class="card__content">
+			<h2 class="card__title">Onze battlefield tours</h2>
+
+			<div class="tour-overview">
+				<% collections.tour.forEach((tour) => { %>
+					<div class="tour-overview__item">
+						<a class="tour-overview__item-content" href="<%= tour.url %>">
+							<div class="tour-overview__item-content__title-holder">
+								<div class="tour-overview__item-content__title">
+									<h3><strong><%= tour.data.title %></strong></h3>
+								</div>
+							</div>
+							<div class="tour-overview__item-content__background" style="background-image: url('/img/<%= tour.data.thumbnail %>');"></div>
+						</a>
+					</div>
+				<% }); %>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card__content">
+			<h2 class="card__title">Je eigen battlefield tour op maat</h2>
+
+			<p>Maar het kan ook zijn dat je een speciale Tour zoekt. Wij kunnen jou hiermee helpen en een Battlefield Tour op maat voor je verzorgen. Dat kan voor één dag zijn maar ook voor meerdere dagen.</p>
+
+			<a class="btn" href="/contact">Meer informatie? Neem contact met ons op</a>
+		</div>
+	</div>
 </div>

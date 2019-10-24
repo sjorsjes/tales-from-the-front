@@ -1,0 +1,27 @@
+.btn {
+	display: inline-block;
+
+	margin: 0 0 var(--distance-m);
+	padding: 0.5rem 0.75rem;
+
+	color: var(--color-white);
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+
+	background-color: var(--color-green);
+	border: 2px solid var(--color-green);
+	border-radius: 0;
+
+	transition: all 0.2s;
+
+	appearance: none;
+}
+
+.btn:hover {
+	color: var(--color-white);
+	text-decoration: none;
+
+	background-color: var(--color-olive);
+	border-color: var(--color-olive);
+}

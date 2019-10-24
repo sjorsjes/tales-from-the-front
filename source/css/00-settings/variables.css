@@ -1,13 +1,14 @@
 /* Base colors */
 :root {
 	--color-white: #fff;
+	--color-black: #1d1d1d;
 	--color-green: #2e3b27;
 	--color-olive: #556d36;
 	--color-steelblue: #607cac;
 	--color-steelblue-light: #a3b1cc;
 	--color-silver: #c9c9c8;
 
-	--color-text: #1d1d1d;
+	--color-text: var(--color-black);
 	--color-link: var(----color-green);
 
 	--font-face-display: 'Raleway', sans-serif;
@@ -36,7 +37,7 @@
 	--distance-m: 1rem;
 	--distance-l: 1.5rem;
 	--distance-xl: 2rem;
-	--distance-xxl: 3.6rem;
+	--distance-xxl: 3rem;
 
 	--radius: 0;
 	--radius-small: 2px;
