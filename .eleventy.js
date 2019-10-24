@@ -5,5 +5,6 @@ module.exports = function (config) {
 	config.addLayoutAlias('home', 'layouts/homepage.ejs');
 	config.addLayoutAlias('tour', 'layouts/tour.ejs');
 
-	config.addPassthroughCopy('/css/**/*.min.css');
+	config.addPassthroughCopy('./source/img');
+	config.addPassthroughCopy('./source/css/**/*.min.css');
 };
