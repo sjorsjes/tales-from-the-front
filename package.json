@@ -17,7 +17,7 @@
     "dev:css": "postcss ./source/css/main.css --map --output ./source/css/main.min.css --watch true",
     "dev:eleventy": "eleventy --input=source --output=dist --serve --port=3000 --passthroughall",
     "build:css": "postcss ./source/css/main.css --map --output ./source/css/main.min.css",
-    "build:eleventy": "eleventy --pathprefix='/' --input=source --output=dist"
+    "build:eleventy": "eleventy --input=source --output=dist"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
