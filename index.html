@@ -23,18 +23,20 @@
 	<label class="navigation__checkbox__label" for="overlay-menu"><span></span></label>
 
 	<div class="navigation__mobile-wrapper">
-		<ol class="navigation__list">
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/' %}is-active{% endif %}"><a href="/"  class="navigation__list-item-link" {% if page.url === "/" %}aria-current="page"{% endif %}>Home</a></li>
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/tours/' %}is-active{% endif %}"><a href="/tours"  class="navigation__list-item-link" {% if page.url === "/tours/" %}aria-current="page"{% endif %}>Tours</a></li>
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/contact/' %}is-active{% endif %}"><a href="/contact"  class="navigation__list-item-link" {% if page.url === "/contact/" %}aria-current="page"{% endif %}>Contact</a></li>
-</ol>
+		<ol class="navigation__list"><li class="navigation__list-item ">
+			<a href="/tales-from-the-front/contact/" class="navigation__list-item-link">contact</a>
+		</li><li class="navigation__list-item is-active">
+			<a href="/tales-from-the-front/" class="navigation__list-item-link">home</a>
+		</li><li class="navigation__list-item ">
+			<a href="/tales-from-the-front/tours/" class="navigation__list-item-link">tours</a>
+		</li></ol>
 
 	</div>
 </nav>
 
 
 		<main class="main">
-			
+      		
 <div class="home-header">
 	<div class="home-header__content">
 		<h1 class="home-header__title">Tales from the front</h1>
@@ -57,14 +59,8 @@
 		alt="">
 
 	
-
-	
-		
-
-		<a href="/tours/de-strijd-om-de-schelde/" class="home-header__upcoming-event">
-			<span class="home-header__upcoming-event__title">
-				De volgende tour, "De &#39;Strijd om de Schelde&#39;", is op <span class="nobreak">28-10-2019.</span>
-			</span>
+		<a href="/tales-from-the-front/contact" class="home-header__upcoming-event">
+			<span class="home-header__upcoming-event__title">Wilt u ook op tour met <span class="nobreak">Tales from the front?</span></span>
 		</a>
 	
 </div>
@@ -83,10 +79,8 @@
 		<div class="card__content">
 			<h2 class="card__title">Onze battlefield tours</h2>
 
-			<div class="tour-overview">
-				
-					<div class="tour-overview__item">
-						<a class="tour-overview__item-content" href="/tours/de-strijd-om-hedel/">
+			<div class="tour-overview"><div class="tour-overview__item">
+						<a class="tour-overview__item-content" href="/tales-from-the-front/tours/de-strijd-om-hedel/">
 							<div class="tour-overview__item-content__title-holder">
 								<div class="tour-overview__item-content__title">
 									<h3><strong>De strijd om Hedel</strong></h3>
@@ -94,10 +88,8 @@
 							</div>
 							<div class="tour-overview__item-content__background" style="background-image: url('/tales-from-the-front/img/FAKE_de-strijd-om-hedel.jpg');"></div>
 						</a>
-					</div>
-				
-					<div class="tour-overview__item">
-						<a class="tour-overview__item-content" href="/tours/bevrijding-van-de-zuidwesthoek/">
+					</div><div class="tour-overview__item">
+						<a class="tour-overview__item-content" href="/tales-from-the-front/tours/bevrijding-van-de-zuidwesthoek/">
 							<div class="tour-overview__item-content__title-holder">
 								<div class="tour-overview__item-content__title">
 									<h3><strong>Bevrijding van de Zuidwesthoek</strong></h3>
@@ -105,31 +97,25 @@
 							</div>
 							<div class="tour-overview__item-content__background" style="background-image: url('/tales-from-the-front/img/FAKE_bevrijding-van-de-zuidwesthoek.jpg');"></div>
 						</a>
-					</div>
-				
-					<div class="tour-overview__item">
-						<a class="tour-overview__item-content" href="/tours/de-nederlandse-commandos-in-de-slag-om-de-schelde/">
+					</div><div class="tour-overview__item">
+						<a class="tour-overview__item-content" href="/tales-from-the-front/tours/de-nederlandse-commandos-in-de-slag-om-de-schelde/">
 							<div class="tour-overview__item-content__title-holder">
 								<div class="tour-overview__item-content__title">
-									<h3><strong>De Nederlandse Commando&#39;s in de &#39;Slag om de Schelde&#39;</strong></h3>
+									<h3><strong>De Nederlandse Commando's in de 'Slag om de Schelde'</strong></h3>
 								</div>
 							</div>
 							<div class="tour-overview__item-content__background" style="background-image: url('/tales-from-the-front/img/FAKE_slag-om-de-schelde.jpg');"></div>
 						</a>
-					</div>
-				
-					<div class="tour-overview__item">
-						<a class="tour-overview__item-content" href="/tours/de-strijd-om-de-schelde/">
+					</div><div class="tour-overview__item">
+						<a class="tour-overview__item-content" href="/tales-from-the-front/tours/de-strijd-om-de-schelde/">
 							<div class="tour-overview__item-content__title-holder">
 								<div class="tour-overview__item-content__title">
-									<h3><strong>De &#39;Strijd om de Schelde&#39;</strong></h3>
+									<h3><strong>De 'Strijd om de Schelde'</strong></h3>
 								</div>
 							</div>
 							<div class="tour-overview__item-content__background" style="background-image: url('/tales-from-the-front/img/FAKE_slag-om-de-schelde.jpg');"></div>
 						</a>
-					</div>
-				
-			</div>
+					</div></div>
 		</div>
 	</div>
 
@@ -139,7 +125,7 @@
 
 			<p>Maar het kan ook zijn dat je een speciale Tour zoekt. Wij kunnen jou hiermee helpen en een Battlefield Tour op maat voor je verzorgen. Dat kan voor één dag zijn maar ook voor meerdere dagen.</p>
 
-			<a class="btn" href="/contact">Meer informatie? Neem contact met ons op</a>
+			<a class="btn" href="/tales-from-the-front/contact">Meer informatie? Neem contact met ons op</a>
 		</div>
 	</div>
 </div>
@@ -175,11 +161,13 @@
 		</div>
 
 		<div class="footer__navigation">
-			<ol class="navigation__list">
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/' %}is-active{% endif %}"><a href="/"  class="navigation__list-item-link" {% if page.url === "/" %}aria-current="page"{% endif %}>Home</a></li>
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/tours/' %}is-active{% endif %}"><a href="/tours"  class="navigation__list-item-link" {% if page.url === "/tours/" %}aria-current="page"{% endif %}>Tours</a></li>
-	<li class="navigation__list-item {% if page.url === '/tales-from-the-front/contact/' %}is-active{% endif %}"><a href="/contact"  class="navigation__list-item-link" {% if page.url === "/contact/" %}aria-current="page"{% endif %}>Contact</a></li>
-</ol>
+			<ol class="navigation__list"><li class="navigation__list-item ">
+			<a href="/tales-from-the-front/contact/" class="navigation__list-item-link">contact</a>
+		</li><li class="navigation__list-item is-active">
+			<a href="/tales-from-the-front/" class="navigation__list-item-link">home</a>
+		</li><li class="navigation__list-item ">
+			<a href="/tales-from-the-front/tours/" class="navigation__list-item-link">tours</a>
+		</li></ol>
 
 		</div>
 	</div>
