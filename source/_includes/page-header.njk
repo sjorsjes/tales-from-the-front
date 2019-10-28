@@ -1,0 +1,29 @@
+<div class="page-header">
+	<div class="page-header__content">
+		<h1 class="page-header__title">{{ title | safe }}</h1>
+		<h2 class="page-header__subtitle">{{ subtitle | safe }}</h2>
+	</div>
+
+	<div class="page-header__gradient"></div>
+
+	<img class="page-header__visual" sizes="(max-width: 1980px) 100vw, 1980px"
+		srcset="
+			{{ "/" | url }}img/{{ visual | safe }}_320.jpg 320w,
+			{{ "/" | url }}img/{{ visual | safe }}_1100.jpg 1100w,
+			{{ "/" | url }}img/{{ visual | safe }}_1650.jpg 1650w,
+			{{ "/" | url }}img/{{ visual | safe }}_1980.jpg 1980w"
+		src="{{ "/" | url }}img/{{ visual | safe }}_1980.jpg"
+		alt="">
+
+	{% if collections.upcomingTour.length > 0 %}
+		<a href="{{ tour.url | url }}" class="page-header__upcoming-event">
+			<span class="page-header__upcoming-event__title">
+				De volgende tour, "{{ collections.upcomingTour[0].data.title }}", is op <span class="nobreak">{{ collections.upcomingTour[0].date | formatDate }}.</span>
+			</span>
+		</a>
+	{% else %}
+		<a href="{{ "/" | url }}contact" class="page-header__upcoming-event">
+			<span class="page-header__upcoming-event__title">Wilt u ook op tour met <span class="nobreak">Tales from the front?</span></span>
+		</a>
+	{% endif %}
+</div>

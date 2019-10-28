@@ -1,9 +1,10 @@
 module.exports = function (config) {
 
 	// LAYOUTS
-	config.addLayoutAlias('base', 'layouts/base.njk');
-	config.addLayoutAlias('home', 'layouts/homepage.njk');
-	config.addLayoutAlias('tour', 'layouts/tour.njk');
+	config.addLayoutAlias('base',			'layouts/base.njk');
+	config.addLayoutAlias('home',			'layouts/homepage.njk');
+	config.addLayoutAlias('tour',			'layouts/tour.njk');
+	config.addLayoutAlias('tourOverview',	'layouts/tour-overview.njk');
 
 	config.addCollection('upcomingTour', function (collection) {
 		const col = collection.getFilteredByTag('tours');

@@ -2,3 +2,65 @@
 layout: base
 title: Tour
 ---
+
+{% include "../page-header.njk" %}
+
+<div class="card card--highlight">
+	<div class="container">
+		<div class="card__content">
+			<ul class="tour-summary cf">
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/bus.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Vervoer naar de locaties</h3>
+						{{ transport | safe }}
+					</div>
+				</li>
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/clock.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Duur van de tour</h3>
+						{{ duration | safe }}
+					</div>
+				</li>
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/food.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Eten & drinken</h3>
+						{{ lunch | safe }}
+					</div>
+				</li>
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/info.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Extra's</h3>
+						{{ extras | safe }}
+					</div>
+				</li>
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/people.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Gidsen</h3>
+						{{ guides | safe }}
+					</div>
+				</li>
+				<li class="tour-summary__item">
+					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/children.png" alt="" />
+					<div class="tour-summary__item-text">
+						<h3>Minimale leeftijd</h3>
+						{{ minimumAge | safe }}
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<div class="card__content">
+			{{ content | safe }}
+		</div>
+	</div>
+</div>
+

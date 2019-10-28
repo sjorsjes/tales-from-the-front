@@ -3,47 +3,13 @@ layout: base
 title: Tales from the front
 ---
 
-<div class="home-header">
-	<div class="home-header__content">
-		<h1 class="home-header__title">{{ title | safe }}</h1>
-		<h2 class="home-header__subtitle">{{ subtitle | safe }}</h2>
-	</div>
-
-	<div class="home-header__gradient"></div>
-
-	<img class="home-header__visual" sizes="(max-width: 3471px) 100vw, 3471px"
-		srcset="
-			{{ "/" | url }}img/homepage-header_480.jpg 480w,
-			{{ "/" | url }}img/homepage-header_1430.jpg 1430w,
-			{{ "/" | url }}img/homepage-header_2060.jpg 2060w,
-			{{ "/" | url }}img/homepage-header_2543.jpg 2543w,
-			{{ "/" | url }}img/homepage-header_2946.jpg 2946w,
-			{{ "/" | url }}img/homepage-header_3305.jpg 3305w,
-			{{ "/" | url }}img/homepage-header_3422.jpg 3422w,
-			{{ "/" | url }}img/homepage-header_3471.jpg 3471w"
-		src="{{ "/" | url }}img/homepage-header_1430.jpg"
-		alt="">
-
-	{% if collections.upcomingTour.length > 0 %}
-		<a href="{{ tour.url | url }}" class="home-header__upcoming-event">
-			<span class="home-header__upcoming-event__title">
-				De volgende tour, "{{ collections.upcomingTour[0].data.title }}", is op <span class="nobreak">{{ collections.upcomingTour[0].date | formatDate }}.</span>
-			</span>
-		</a>
-	{% else %}
-		<a href="{{ "/" | url }}contact" class="home-header__upcoming-event">
-			<span class="home-header__upcoming-event__title">Wilt u ook op tour met <span class="nobreak">Tales from the front?</span></span>
-		</a>
-	{% endif %}
-</div>
+{% include "../page-header.njk" %}
 
 <div class="container">
 	<div class="card">
 		<div class="card__content">
 			<div class="intro intro--column-2">
-				<p>Tales from the Front organiseert  Battlefield Tours voor groepen maar ook voor de individuele ontdekkingsreiziger. Het doel is om het enorme offer te blijven herinneren wat in de strijd voor de vrijheid is gedaan.</p>
-
-				<p>Wij zijn gepassioneerd om onze kennis te delen over de verschillende slagvelden van de Tweede Wereldoorlog en te vertellen over het wel en wee van de militairen in de gevechten.</p>
+				{{ content | safe }}
 			</div>
 		</div>
 	</div>
@@ -51,20 +17,7 @@ title: Tales from the front
 		<div class="card__content">
 			<h2 class="card__title">Onze battlefield tours</h2>
 
-			<div class="tour-overview">
-				{%- for tour in collections.tours -%}
-					<div class="tour-overview__item">
-						<a class="tour-overview__item-content" href="{{ tour.url | url }}">
-							<div class="tour-overview__item-content__title-holder">
-								<div class="tour-overview__item-content__title">
-									<h3><strong>{{ tour.data.title | safe }}</strong></h3>
-								</div>
-							</div>
-							<div class="tour-overview__item-content__background" style="background-image: url('{{ "/" | url }}img/{{ tour.data.thumbnail | safe }}');"></div>
-						</a>
-					</div>
-				{%- endfor -%}
-			</div>
+			{% include "../tour-overview.njk" %}
 		</div>
 	</div>
 

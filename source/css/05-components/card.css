@@ -2,6 +2,10 @@
 	background-color: var(--color-white);
 }
 
+.card--highlight {
+	background-color: var(--color-steelblue-light);
+}
+
 .card__content {
 	padding: var(--distance-m) 0;
 }

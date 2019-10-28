@@ -1,0 +1,45 @@
+.tour-summary {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.tour-summary__item {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+
+	padding: var(--distance-s) 0;
+}
+
+.tour-summary__item-visual {
+	display: inline-block;
+
+	width: 50px;
+
+	margin-right: var(--distance-s);
+}
+
+.tour-summary__item-text h3 {
+	margin: 0;
+}
+
+@media (--small) {
+	.tour-summary__item {
+		width: 50%;
+
+		padding: var(--distance-m);
+	}
+}
+
+@media (--medium) {
+	.tour-summary__item {
+		width: 33.333%;
+	}
+}

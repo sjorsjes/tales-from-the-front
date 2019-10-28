@@ -1,6 +1,7 @@
 @import './00-settings/variables.css';
 
 @import './02-generic/box-sizing.css';
+@import './02-generic/clearfix.css';
 @import './02-generic/visually-hidden.css';
 
 @import './03-elements/document.css';
@@ -14,12 +15,13 @@
 @import './05-components/buttons.css';
 @import './05-components/card.css';
 @import './05-components/footer.css';
-@import './05-components/header-home.css';
 @import './05-components/intro.css';
 @import './05-components/logo.css';
 @import './05-components/main.css';
 @import './05-components/navigation.css';
+@import './05-components/page-header.css';
 @import './05-components/tour-overview.css';
+@import './05-components/tour-summary.css';
 
 @import './06-trumps/layout.css';
 @import './06-trumps/states.css';
