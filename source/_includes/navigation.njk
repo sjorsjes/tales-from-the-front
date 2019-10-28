@@ -1,0 +1,7 @@
+<ol class="navigation__list">
+	{%- for nav in collections.nav -%}
+		<li class="navigation__list-item {% if nav.url === page.url %}is-active{%- endif %}">
+			<a href="{{ nav.url | url }}" class="navigation__list-item-link">{{ nav.data.navtitle }}</a>
+		</li>
+	{%- endfor -%}
+</ol>

@@ -1,6 +1,6 @@
 <nav class="navigation">
 	<a href="/" class="logo">
-		<img src="/tales-from-the-front/img/logo.png" alt="Tales from the front" />
+		<img src="{{ "/" | url }}img/logo.png" alt="Tales from the front" />
 		<h1 class="visuallyhidden">Tales from the front</h1>
 	</a>
 
@@ -8,6 +8,6 @@
 	<label class="navigation__checkbox__label" for="overlay-menu"><span></span></label>
 
 	<div class="navigation__mobile-wrapper">
-		<%- include('./navigation.ejs') %>
+		{% include "./navigation.njk" %}
 	</div>
 </nav>
