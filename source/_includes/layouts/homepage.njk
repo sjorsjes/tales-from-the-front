@@ -13,21 +13,8 @@ title: Tales from the front
 			</div>
 		</div>
 	</div>
-	<div class="card card--no-padding">
-		<div class="card__content">
-			<h2 class="card__title">Onze battlefield tours</h2>
 
-			{% include "../tour-overview.njk" %}
-		</div>
-	</div>
+	{% include "../tour-overview.njk" %}
 
-	<div class="card">
-		<div class="card__content">
-			<h2 class="card__title">Je eigen battlefield tour op maat</h2>
-
-			<p>Maar het kan ook zijn dat je een speciale Tour zoekt. Wij kunnen jou hiermee helpen en een Battlefield Tour op maat voor je verzorgen. Dat kan voor één dag zijn maar ook voor meerdere dagen.</p>
-
-			<a class="btn" href="{{ "/" | url }}contact">Meer informatie? Neem contact met ons op</a>
-		</div>
-	</div>
+	{% include "../tour-op-maat.njk" %}
 </div>

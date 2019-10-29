@@ -65,7 +65,27 @@ title: Tour
 <div class="container">
 	<div class="card">
 		<div class="card__content">
+			<div class="text-center">
+				<a class="btn" href="{{ "/" | url }}contact">Boek deze tour</a>
+			</div>
+
 			{{ content | safe }}
+		</div>
+	</div>
+
+	<div class="card card--flex">
+		<div class="card__content">
+			{% if next %}
+				&laquo; Vorige tour<br />
+				<a class="" href="{{ next.url | url }}">{{ next.title }}</a>
+			{% endif %}
+		</div>
+
+		<div class="card__content text-right">
+			{% if previous %}
+				Volgende tour &raquo;<br />
+				<a class="" href="{{ previous.url | url }}">{{ previous.title }}</a>
+			{% endif %}
 		</div>
 	</div>
 </div>

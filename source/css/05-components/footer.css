@@ -22,7 +22,7 @@
 
 .footer__navigation .navigation__list-item-link {
 	font-size: var(--font-size-m);
-	text-transform: none;
+	text-transform: capitalize;
 	text-decoration: underline;
 }
 

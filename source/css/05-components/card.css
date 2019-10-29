@@ -6,6 +6,11 @@
 	background-color: var(--color-steelblue-light);
 }
 
+.card--flex {
+	display: flex;
+	justify-content: space-between;
+}
+
 .card__content {
 	padding: var(--distance-m) 0;
 }

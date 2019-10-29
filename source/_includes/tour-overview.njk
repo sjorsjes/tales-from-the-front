@@ -1,14 +1,20 @@
-<div class="tour-overview">
-	{%- for tour in collections.tours -%}
-		<div class="tour-overview__item">
-			<a class="tour-overview__item-content" href="{{ tour.url | url }}">
-				<div class="tour-overview__item-content__title-holder">
-					<div class="tour-overview__item-content__title">
-						<h3><strong>{{ tour.data.title | safe }}</strong></h3>
-					</div>
+<div class="card card--no-padding">
+	<div class="card__content">
+		<h2 class="card__title">Onze battlefield tours</h2>
+
+		<div class="tour-overview">
+			{%- for tour in collections.myTours -%}
+				<div class="tour-overview__item">
+					<a class="tour-overview__item-content" href="{{ tour.url | url }}">
+						<div class="tour-overview__item-content__title-holder">
+							<div class="tour-overview__item-content__title">
+								<h3><strong>{{ tour.data.title | safe }}</strong></h3>
+							</div>
+						</div>
+						<div class="tour-overview__item-content__background" style="background-image: url('{{ "/" | url }}img/{{ tour.data.thumbnail | safe }}.jpg');"></div>
+					</a>
 				</div>
-				<div class="tour-overview__item-content__background" style="background-image: url('{{ "/" | url }}img/{{ tour.data.thumbnail | safe }}.jpg');"></div>
-			</a>
+			{%- endfor -%}
 		</div>
-	{%- endfor -%}
+	</div>
 </div>
