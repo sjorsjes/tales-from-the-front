@@ -44,6 +44,22 @@ module.exports = function (config) {
 
 	config.addCollection('myTours', collection => addPrevNext(collection.getFilteredByTag('tours')));
 
+	config.addCollection('myNav', function (collection) {
+		const col = collection.getFilteredByTag('nav');
+
+		return col.sort((a, b) => {
+			if (a.data.navorder > b.data.navorder) {
+				return 1;
+			}
+
+			if (a.data.navorder < b.data.navorder) {
+				return -1;
+			}
+
+			return 0;
+		});
+	});
+
 	config.addPassthroughCopy('./source/img');
 	config.addPassthroughCopy('./source/css/**/*.min.css');
 };
