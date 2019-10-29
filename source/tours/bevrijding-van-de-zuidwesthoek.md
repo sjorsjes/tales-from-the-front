@@ -10,7 +10,7 @@ tags: tours
 
 duration: 4 uur
 extras: n.v.t.
-guides: ['Richard Brouwer & Dré Nagtegaal']
+guides: ['Richard Brouwer', 'Dré Nagtegaal']
 lunch: n.v.t.
 minimumAge: 16
 transport: Nee

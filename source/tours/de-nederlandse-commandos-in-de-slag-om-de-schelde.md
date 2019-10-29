@@ -10,7 +10,7 @@ tags: tours
 
 duration: 4 uur
 extras: 'incl. entree voor het Bevrijdingsmuseum Zeeland'
-guides: 'Richard Brouwer & Dré Nagtegaal'
+guides: ['Dré Nagtegaal']
 lunch: Incl. lunch
 minimumAge: 16
 transport: Ja

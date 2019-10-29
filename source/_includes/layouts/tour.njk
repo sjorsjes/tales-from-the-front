@@ -41,7 +41,13 @@ title: Tour
 					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/people.png" alt="" />
 					<div class="tour-summary__item-text">
 						<h3>Gidsen</h3>
-						{{ guides | safe }}
+						{% for guide in guides %}
+							<span class="nobreak">{{ guide | safe }}</span>
+
+							{% if loop.revindex0 > 0 %}
+								&amp;
+							{% endif %}
+						{% endfor %}
 					</div>
 				</li>
 				<li class="tour-summary__item">
