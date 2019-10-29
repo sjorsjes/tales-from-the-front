@@ -3,8 +3,6 @@
 ## TODO
 - change email adress for contact forms
 
-
-
 # Tours
 ## Front Matter Data
 | Keys        | Explanation                             |
