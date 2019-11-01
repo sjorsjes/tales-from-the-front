@@ -1,3 +1,54 @@
-.form {
+.form__row {
+	max-width: 400px;
+
+	margin-bottom: var(--distance-m);
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+
+	border: none;
+}
+
+label {
+	display: block;
+
+	margin-bottom: var(--distance-xxs);
+
 	font-weight: bold;
+}
+
+textarea {
+	display: block; /* http://tinyurl.com/y3l4m3l7 */
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+
+	padding: var(--distance-s);
+
+	font-size: var(--font-size-m);
+
+	border-radius: 0;
+}
+
+select {
+	padding-right: var(--distance-xs);
+	padding-left: var(--distance-xs);
+}
+
+.required {
+	color: var(--color-steelblue);
 }

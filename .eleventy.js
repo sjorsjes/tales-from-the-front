@@ -24,6 +24,7 @@ module.exports = function (config) {
 	config.addLayoutAlias('home',			'layouts/homepage.njk');
 	config.addLayoutAlias('tour',			'layouts/tour.njk');
 	config.addLayoutAlias('tourOverview',	'layouts/tour-overview.njk');
+	config.addLayoutAlias('content',		'layouts/content.njk');
 
 	config.addFilter('formatDate', function (value) {
 		const date = new Date(value);

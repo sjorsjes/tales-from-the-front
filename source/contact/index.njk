@@ -2,28 +2,51 @@
 tags: nav
 navtitle: contact
 navorder: 2
+visual: FAKE_contact
+layout: content
 ---
 
-<form action="https://usebasin.com/f/98ceeb7f1aa2" method="POST">
-	<label for="name">Naam*</label>
-	<input type="text" id="name" name="name" required />
+<div class="card">
+	<div class="card__content">
+		<h2 class="card__title">Neem contact met ons op</h2>
 
-	<label for="email">Email*</label>
-	<input type="email" id="email" name="email" required />
+		<form action="https://usebasin.com/f/98ceeb7f1aa2" method="POST">
+			<div class="form__row">
+				<label for="name">Naam <sup class="required">*</sup></label>
+				<input type="text" id="name" name="name" required />
+			</div>
 
-	<label for="tour">Gewenste Battlefield Tour</label>
-	<select id="tour" name="tour" required>
-		<option value="">--Selecteer een tour--</option>
+			<div class="form__row">
+				<label for="email">Email <sup class="required">*</sup></label>
+				<input type="email" id="email" name="email" required />
+			</div>
 
-		{%- for tour in collections.tour | reverse -%}
-			{% if tour.data.slug %}
-				<option value="{{ tour.data.slug }}">{{ tour.data.title }}</option>
-			{% endif %}
-		{%- endfor -%}
-	</select>
+			<div class="form__row">
+				<label for="tour">Gewenste Battlefield Tour</label>
+				<select id="tour" name="tour" required>
+					<option value="">-- selecteer een tour --</option>
 
-	<label for="message">Vraag of opmerking*</label>
-	<input type="text" id="message" name="message" required />
+					{%- for tour in collections.tours | reverse -%}
+						{% if tour.data.slug %}
+							<option value="{{ tour.data.slug }}">{{ tour.data.title }}</option>
+						{% endif %}
+					{%- endfor -%}
+				</select>
+			</div>
 
-	<button>Submit</button>
-</form>
+			<div class="form__row">
+				<label for="message">Vraag of opmerking  <sup class="required">*</sup></label>
+				<textarea id="message" name="message" required></textarea>
+			</div>
+
+			<div class="form__row">
+				<button class="btn">Submit</button>
+			</div>
+
+			<div class="form__row">
+				<p><em>Wij gaan zorgvuldig om met je gegevens en gebruiken deze alleen om contact met je op te kunnen nemen.</em></p>
+			</div>
+		</form>
+	</div>
+</div>
+
