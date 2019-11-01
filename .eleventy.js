@@ -63,4 +63,6 @@ module.exports = function (config) {
 
 	config.addPassthroughCopy('./source/img');
 	config.addPassthroughCopy('./source/css/**/*.min.css');
+	config.addPassthroughCopy('./source/favicon.ico');
+	config.addPassthroughCopy('./source/sitemap.xml');
 };
