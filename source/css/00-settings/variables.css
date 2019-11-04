@@ -7,6 +7,8 @@
 	--color-steelblue: #607cac;
 	--color-steelblue-light: #a3b1cc;
 	--color-silver: #c9c9c8;
+	--color-silver-light: #f0f0ec;
+	--color-red: #d8000c;
 
 	--color-text: var(--color-black);
 	--color-link: var(----color-green);

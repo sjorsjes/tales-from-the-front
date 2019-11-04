@@ -9,7 +9,12 @@ visual: homepage-header
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Tales from the front</title>
+	<title>
+		Tales from the front
+		{% if page.url !== "/" %}
+			- {{ title }}
+		{% endif %}
+	 </title>
 
 	<link rel="shortcut icon" href="{{ "/" | url }}favicon.ico" type="image/x-icon">
 	<link rel="icon" href="{{ "/" | url }}favicon.ico" type="image/x-icon">
