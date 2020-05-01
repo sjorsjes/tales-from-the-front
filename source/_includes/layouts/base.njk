@@ -19,9 +19,14 @@ visual: homepage-header
 	<link rel="shortcut icon" href="{{ "/" | url }}favicon.ico" type="image/x-icon">
 	<link rel="icon" href="{{ "/" | url }}favicon.ico" type="image/x-icon">
 
+{% if gallery %}
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+{% endif %}
+
 	<link href="{{ "/" | url }}css/main.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<div class="wrapper">
@@ -33,5 +38,25 @@ visual: homepage-header
 
 		{% include "../footer.njk" %}
 	</div>
+
+{% if gallery %}
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+	<script>
+		const mySwiper = new Swiper ('.swiper-container', {
+			loop: true,
+			autoHeight: true,
+
+			pagination: {
+				el: '.swiper-pagination',
+			},
+
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+{% endif %}
 </body>
 </html>
