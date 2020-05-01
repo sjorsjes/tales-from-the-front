@@ -30,6 +30,6 @@ We bezoeken de plaatsen en locaties die een belangrijke rol hebben gespeeld in d
 
 Het definitieve programma volgt bij inschrijving.
 
->*- 2 november 1944, Dishoek  
+>*- Woensdag 2 november 1944, Dishoek  
 Toen de rechtergroep Britse commando’s de bunker vanuit de linkerkant naderde kwamen ze in een heftig Duits vuur terecht en werden ze met mortieren bestookt. Captain Flower raakte gewond aan zijn borst, arm en been door de scherven van een Duitse Stokgranaat. Ondanks zijn verwondingen stormde hij, nog steeds onder vuur, naar een Duitse opstelling en doodde de drie Duitsers die daarin waren met zijn tommy-gun. Maar weer werd hij geraakt en viel neer.*  
 **From Omaha tot the Scheldt – John Forfar**

@@ -32,6 +32,6 @@ Het definitieve programma volgt bij inschrijving.
 
 U hoeft natuurlijk niet persé in het bezit te zijn van een groene baret. Het is voor iedereen een fantastische Battlefield Tour met een zeer persoonlijke tint van de Nederlandse commando's van het eerste uur die mee hebben geholpen aan de bevrijding van Walcheren en de strijd om de Schelde.
 
->*- 1 november 1944, Vlissingen  
+>*- Dinsdag 1 november 1944, Vlissingen  
 De artilleriebeschieting op de stad verstomd. Kort daarop komt kanon- en mitrailleurvuur van de andere kant, gericht op de landingsboten. Ze komen dichterbij en worden nu ook door mortieren bestookt. De tweede boot wordt getroffen. Korporaal Bothe kijkt met een voor hem bekend gevoel naar al dat lichtspoor. Hij staart naar de twee deuren voor hem. Wat staat hem daar te wachten?*  
 **Hells Highway en Walcheren – J.W. Bothe, eigen uitgave commando museum**
