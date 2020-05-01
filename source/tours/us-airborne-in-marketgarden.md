@@ -2,7 +2,7 @@
 title: US Airborne in Market Garden
 subtitle:
 visual: us-airborne-in-market-garden_06
-thumbnail: us-airborne-in-market-garden_06_320
+thumbnail: us-airborne-in-market-garden_06-320w
 tourdate: In samenspraak met de groep
 rendezvous: Bevrijdingsmuseum Zeeland
 slug: de-nederlandse-commandos-in-de-slag-om-de-schelde

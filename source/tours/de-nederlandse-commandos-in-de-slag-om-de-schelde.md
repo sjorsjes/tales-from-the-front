@@ -2,7 +2,7 @@
 title: De Nederlandse Commando's in de 'Slag om de Schelde'
 subtitle:
 visual: de-nederlandse-commandos-in-de-slag-om-de-schelde_01
-thumbnail: de-nederlandse-commandos-in-de-slag-om-de-schelde_03_320
+thumbnail: de-nederlandse-commandos-in-de-slag-om-de-schelde_03-320w
 tourdate: In samenspraak met de groep
 rendezvous: Bevrijdingsmuseum Zeeland
 slug: de-nederlandse-commandos-in-de-slag-om-de-schelde

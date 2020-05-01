@@ -4,11 +4,11 @@
 			<div class="swiper-slide">
 				<img sizes="(max-width: 1980px) 100vw, 1980px"
 					srcset="
-						{{ "/" | url }}img/{{ visual | safe }}_320.jpg 320w,
-						{{ "/" | url }}img/{{ visual | safe }}_1100.jpg 1100w,
-						{{ "/" | url }}img/{{ visual | safe }}_1650.jpg 1650w,
-						{{ "/" | url }}img/{{ visual | safe }}_1980.jpg 1980w"
-					src="{{ "/" | url }}img/{{ visual | safe }}_1980.jpg"
+						{{ "/" | url }}img/visuals/{{ visual | safe }}-320w.jpg 320w,
+						{{ "/" | url }}img/visuals/{{ visual | safe }}-1100w.jpg 1100w,
+						{{ "/" | url }}img/visuals/{{ visual | safe }}-1650w.jpg 1650w,
+						{{ "/" | url }}img/visuals/{{ visual | safe }}-1980w.jpg 1980w"
+					src="{{ "/" | url }}img/visuals/{{ visual | safe }}-1980w.jpg"
 					alt="">
 			</div>
 		{% endfor %}

@@ -1,8 +1,8 @@
 ---
 title: De Slag om de Schelde
 subtitle: Het verhaal van militairen en burgers tijdens de bevrijding van Zuidwest Nederland.
-visual: de-strijd-om-de-schelde_05
-thumbnail: de-strijd-om-de-schelde_02_320
+visual: de-slag-om-de-schelde_05
+thumbnail: de-slag-om-de-schelde_02-320w
 tourdate:
 rendezvous: Café Non Plus Ultra te Woensdrecht
 slug: de-slag-om-de-schelde
