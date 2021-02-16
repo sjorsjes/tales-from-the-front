@@ -1,8 +1,10 @@
 ---
+title: Over ons
+subtitle: We dachten eigenlijk dat er dicht bij onze woonplaats maar weinig was gevochten. We kwamen er achter dat er zware gevechten hadden plaatsgevonden met veel (burger)slachtoffers.
 tags: nav
 navtitle: over ons
-navorder: 2
-visual: FAKE_contact
+navorder: 3
+visual: homepage-header
 layout: content
 ---
 

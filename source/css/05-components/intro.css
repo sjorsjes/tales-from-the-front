@@ -12,12 +12,8 @@
 }
 
 @media (--medium) {
-	.intro p { margin: 0; }
-
-	.intro--column-2 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: var(--distance-xl);
+	.intro {
+		columns: 2;
 	}
 }
 
