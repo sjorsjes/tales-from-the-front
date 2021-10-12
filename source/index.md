@@ -7,6 +7,13 @@ navtitle: home
 navorder: 0
 ---
 
-Tales from the Front organiseert  Battlefield Tours voor groepen maar ook voor de individuele ontdekkingsreiziger. Het doel is om het enorme offer te blijven herinneren wat in de strijd voor de vrijheid is gedaan.
+Arnhem, Nijmegen, Overloon en Zeeland, dat waren de slagvelden in Nederland in 1944. Wat gebeurde er nu voor de rest in Nederland? Niet veel toch?  
+We bestudeerden veel militair-historische boeken over de gevechten in het zuiden van Nederland en moesten ons beeld bijstellen.
 
-Wij zijn gepassioneerd om onze kennis te delen over de verschillende slagvelden van de Tweede Wereldoorlog en te vertellen over het wel en wee van de militairen in de gevechten.
+Er waren volop harde gevechten met veel (burger)slachtoffers die voor velen in de loop der tijd zijn vergeten.
+Om deze gevechten de aandacht te geven die ze verdienen besloten wij ons hierin te specialiseren. Vanwege het bestuderen van geallieerd en Duits archiefmateriaal en burgerooggetuigen kunnen we een uitgebreid aanbod van Battlefield Tours aanbieden.
+
+De tours zijn geschikt voor zowel kleine als grote groepen tot 45 personen. Zijn er locaties die je graag wilt bezoeken en waar je meer over wilt weten? Dat kan, alles gaat in overleg. Ook de datums worden in overleg met jou of jullie gekozen.
+
+Natuurlijk kun je bij ons ook terecht voor een Battlefield Tour naar bijvoorbeeld de slagvelden van Market Garden, de Ardennen, het Oderfront bij Berlijn en de D-Day stranden van Normandië. Ook de strijd in de Eerste Wereldoorlog kunnen we ruimschoots belichten. In het buitenland duren de Battlefield Tours vanwege de afstanden meerdere dagen.
+

@@ -1,33 +1,40 @@
 ---
-title: De Nederlandse Commando's in de 'Slag om de Schelde'
+title: Speciaal voor (oud) commando’s, No 2 Dutch Troop in Nederland
 subtitle:
-visual: FAKE_slag-om-de-schelde
-thumbnail: FAKE_slag-om-de-schelde
-tourdate:
-rendezvous: Zeelandhallen Goes
-slug: de-nederlandse-commandos-in-de-slag-om-de-schelde'
+visual: de-nederlandse-commandos-in-de-slag-om-de-schelde_01
+thumbnail: de-nederlandse-commandos-in-de-slag-om-de-schelde_03-320w
+tourdate: In samenspraak met de groep
+rendezvous: Bevrijdingsmuseum Zeeland
+slug: de-nederlandse-commandos-in-de-slag-om-de-schelde
 tags: tours
 
-duration: 4 uur
-extras: 'incl. entree voor het Bevrijdingsmuseum Zeeland'
-guides: ['Dré Nagtegaal']
-lunch: Incl. lunch
+duration: 6 uur
+extras: 'incl. uitgebreide excursiegids'
+guides: ['Dré', 'Richard']
+lunch: Incl. lunch in Bevrijdingsmuseum Zeeland
 minimumAge: 16
-transport: Ja
+transport: Ja, met touringcar / combi bus
+
+gallery:
+- de-nederlandse-commandos-in-de-slag-om-de-schelde_01
+- de-nederlandse-commandos-in-de-slag-om-de-schelde_02
+- de-nederlandse-commandos-in-de-slag-om-de-schelde_03
+- de-nederlandse-commandos-in-de-slag-om-de-schelde_04
+- de-nederlandse-commandos-in-de-slag-om-de-schelde_05
+
 ---
 
->*Om 04.40u verlieten landingsboten het haventje van Breskens. Over de hoofden van de mannen in de boten gierden de artilleriegranaten die vanuit Zeeuws Vlaanderen werden afgevuurd op Vlissingen. De stad was het doel van de landingsboten. De stad met de aanwezige bunkers en geschut domineerde de monding van de rivier De Schelde, de toegang naar de belangrijke haven van Antwerpen.\
-\
-Aan boord van de verschillende landingsboten bevonden zich Nederlandse commando’s van No, 2 Dutch Troop. In Vlissingen, en een paar uur later in Westkapelle, gingen de Nederlanders de strijd aan met de aanwezige Duitse troepen. Het werd geen ‘walk in the parc’ maar een harde strijd om de Duitse bezetter te verslaan.*  
-**Dinsdag 1 november 1944, Vlissingen**
+De eerste Nederlandse militairen begonnen op 22 maart 1942 aan de loodzware commando-opleiding in Schotland. De mannen die de opleiding voltooiden vormden de eerste Nederlandse commando-eenheid, No 2 Dutch Troop. De voorloper van het huidige Korps Commando Troepen.
+
+De mannen namen deel aan de operatie Market Garden, de grootste luchtlandingsoperatie op Nederlandse bodem. Ze vochten mee om het Zeeuwse eiland Walcheren te bevrijden en leverden een bijdrage aan het front aan de Maas in 1945.
+
+>**- Dinsdag 1 november 1944, Vlissingen**    
+*De artilleriebeschieting op de stad stopt. Kort daarop komt kanon- en mitrailleurvuur van de andere kant, gericht op de landingsboten. Ze komen dichterbij en worden nu ook door mortieren bestookt. De tweede boot wordt getroffen. Korporaal Bothe kijkt met een voor hem bekend gevoel naar al dat lichtspoor. Hij staart naar de twee deuren voor hem. Wat staat hem daar te wachten?*  
+**Hells Highway en Walcheren – J.W. Bothe, eigen uitgave commando museum**
 
 ## De tour
-Speciaal voor actief dienende en oud commando’s hebben wij een Battlefield Tour ontworpen waarin we de voetsporen volgen van oa Jaap Bothe, Bill de Liefde, Kapitein Linzel welbekenden bij menig commando en natuurlijk ook andere commando's. We volgen hen door de straten van Vlissingen, de levensgevaarlijke landing bij Westkapelle en door de moeizame verplaatsingen door de duinen naar Batterij Dishoek.
+Speciaal voor actief dienende en oud commando’s bezoeken we de locaties waar we de voetsporen volgen van o.a. Jaap Bothe, Adriaan Beekmeijer, Tom Italiaander, de Waard, kapitein Linzel en andere maten van No 2.
 
-U hoeft natuurlijk niet persé in het bezit te zijn van een groene baret. Het is voor iedereen een fantastische Battlefield tour met een zeer persoonlijke tint van de Nederlandse commando's van het eerste uur die mee hebben geholpen aan de bevrijding vanWalcheren en de strijd om de Schelde.
+Je kunt ze volgen door de straten van Vlissingen en Nijmegen, bij de moeizame verplaatsingen door de Duinen naar Batterij Dishoek, op de landingsterreinen van Wolfheze, Sonse Bos en Groesbeek en bij de oversteek over de Rijn. Daar waar zij liepen, loop jij straks ook.
 
-We bezoeken locaties die waar de Nederlanders daadwerkelijk zijn geweest onderandere in Vlissingen, Westkapelle en de overblijfselen van Batterij Dishoek en andere locaties. Ook is er een bezoek aan het bevrijdingsmuseum Zeeland waar de strijd om de Schelde terugkomt.
-
-De entree voor het museum is in de prijs inbegrepen. Het vervoer van de tour is in een personenbus. Ook de interne mens zullen we niet vergeten. Er is tijd voor een bak koffie en een verzorgde lunch. We geven je uitgebreide informatie, toelichting en achtergronden van de strijd van de Nederlanders. Daar waar zij liepen, loop jij straks.
-
-*Deze tour is meerdere malen door {{ guides[0] }} verzorgd voor leden van de huidige Korps Commando Troepen en commando's in opleiding.*
+Samen met jou maken we de tour en beslissen we welke locaties we gaan bezoeken. Dit kunnen dus bijvoorbeeld verschillende locaties van Market Garden zijn, of locaties van de harde strijd om Walcheren. We voldoen graag aan jouw wensen waarbij het bezoeken van een museum zeker mogelijk is.

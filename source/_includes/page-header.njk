@@ -1,18 +1,21 @@
 <div class="page-header">
 	<div class="page-header__content">
 		<h1 class="page-header__title">{{ title | safe }}</h1>
-		<h2 class="page-header__subtitle">{{ subtitle | safe }}</h2>
+
+		{% if subtitle %}
+			<h2 class="page-header__subtitle">{{ subtitle | safe }}</h2>
+		{% endif %}
 	</div>
 
 	<div class="page-header__gradient"></div>
 
 	<img class="page-header__visual" sizes="(max-width: 1980px) 100vw, 1980px"
 		srcset="
-			{{ "/" | url }}img/{{ visual | safe }}_320.jpg 320w,
-			{{ "/" | url }}img/{{ visual | safe }}_1100.jpg 1100w,
-			{{ "/" | url }}img/{{ visual | safe }}_1650.jpg 1650w,
-			{{ "/" | url }}img/{{ visual | safe }}_1980.jpg 1980w"
-		src="{{ "/" | url }}img/{{ visual | safe }}_1980.jpg"
+			{{ "/" | url }}img/visuals/{{ visual | safe }}-320w.jpg 320w,
+			{{ "/" | url }}img/visuals/{{ visual | safe }}-1100w.jpg 1100w,
+			{{ "/" | url }}img/visuals/{{ visual | safe }}-1650w.jpg 1650w,
+			{{ "/" | url }}img/visuals/{{ visual | safe }}-1980w.jpg 1980w"
+		src="{{ "/" | url }}img/visuals/{{ visual | safe }}-1980w.jpg"
 		alt="">
 
 	{% if collections.upcomingTour.length > 0 %}

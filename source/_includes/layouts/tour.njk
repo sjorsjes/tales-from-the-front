@@ -69,9 +69,13 @@ title: Tour
 				<a class="btn" href="{{ "/" | url }}contact">Boek deze tour</a>
 			</div>
 
+			<h2 class="card__title">{{ title | safe }}</h2>
+
 			{{ content | safe }}
 		</div>
 	</div>
+
+	{% include "../gallery.njk" %}
 
 	<div class="card card--flex">
 		<div class="card__content">
