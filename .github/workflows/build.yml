@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build --pathprefix=/tales-from-the-front/
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
