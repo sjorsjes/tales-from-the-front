@@ -5,7 +5,7 @@ tags: nav
 navtitle: over ons
 navorder: 3
 visual: homepage-header
-layout: content
+layout: overOns
 ---
 
 We dachten eigenlijk dat er dicht bij onze woonplaats maar weinig was gevochten in vergelijking met bijvoorbeeld Overloon en Nijmegen. Maar na het lezen van vele boeken over de verschillende strijdlocaties in Noord-Brabant moesten we ons beeld bijstellen. We kwamen er achter dat er zware gevechten hadden plaatsgevonden met veel (burger)slachtoffers. Daarom besloten we ons te specialiseren in de gevechten die in het zuiden van Nederland hebben plaatsgevonden. Zowel de geallieerde als de Duitse zijde hebben we gedetailleerd onderzocht en zijn tot een uitgebreid aanbod van Battlefield Tours gekomen. Maar het aanbod van tours breidt zich nog steeds uit.

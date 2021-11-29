@@ -25,6 +25,8 @@ module.exports = function (config) {
 	config.addLayoutAlias('tour',			'layouts/tour.njk');
 	config.addLayoutAlias('tourOverview',	'layouts/tour-overview.njk');
 	config.addLayoutAlias('content',		'layouts/content.njk');
+	config.addLayoutAlias('overOns',		'layouts/over-ons.njk');
+	config.addLayoutAlias('boek',			'layouts/boek.njk');
 	config.addLayoutAlias('contact',		'layouts/contact.njk');
 
 	config.addFilter('formatDate', function (value) {
@@ -64,6 +66,7 @@ module.exports = function (config) {
 
 	config.addPassthroughCopy('./source/img');
 	config.addPassthroughCopy('./source/css/**/*.min.css');
+	config.addPassthroughCopy('./source/files');
 	config.addPassthroughCopy('./source/favicon.ico');
 	config.addPassthroughCopy('./source/sitemap.xml');
 };

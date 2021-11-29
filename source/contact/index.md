@@ -1,9 +1,9 @@
 ---
 title: Contact
-subtitle: lorem ipsum
+subtitle: Hoe kunnen wij u helpen?
 tags: nav
 navtitle: contact
-navorder: 4
+navorder: 5
 visual: homepage-header
 layout: contact
 ---

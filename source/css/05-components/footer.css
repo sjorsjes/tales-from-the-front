@@ -75,6 +75,10 @@
 	padding: var(--distance-s) 0;
 }
 
+.footer_contact__list-item a {
+	color: var(--color-white);
+}
+
 .footer_contact__list-item a:hover {
 	color: var(--color-steelblue);
 }

@@ -5,73 +5,15 @@ title: Tour
 
 {% include "../page-header.njk" %}
 
-<div class="card card--highlight">
-	<div class="container">
-		<div class="card__content">
-			<ul class="tour-summary cf">
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/bus.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Vervoer naar de locaties</h3>
-						{{ transport | safe }}
-					</div>
-				</li>
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/clock.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Duur van de tour</h3>
-						{{ duration | safe }}
-					</div>
-				</li>
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/food.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Eten & drinken</h3>
-						{{ lunch | safe }}
-					</div>
-				</li>
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/info.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Extra's</h3>
-						{{ extras | safe }}
-					</div>
-				</li>
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/people.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Gidsen</h3>
-						{% for guide in guides %}
-							<span class="nobreak">{{ guide | safe }}</span>
-
-							{% if loop.revindex0 > 0 %}
-								&amp;
-							{% endif %}
-						{% endfor %}
-					</div>
-				</li>
-				<li class="tour-summary__item">
-					<img class="tour-summary__item-visual" src="{{ "/" | url }}img/icons/children.png" alt="" />
-					<div class="tour-summary__item-text">
-						<h3>Minimale leeftijd</h3>
-						{{ minimumAge | safe }}
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
-
 <div class="container">
 	<div class="card">
 		<div class="card__content">
-			<div class="text-center">
-				<a class="btn" href="{{ "/" | url }}contact">Boek deze tour</a>
-			</div>
-
 			<h2 class="card__title">{{ title | safe }}</h2>
 
 			{{ content | safe }}
+		</div>
+		<div class="card__content text-center">
+			<a class="btn" href="{{ "/" | url }}contact">Boek deze tour</a>
 		</div>
 	</div>
 
