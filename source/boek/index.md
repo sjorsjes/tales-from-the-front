@@ -4,7 +4,7 @@ subtitle: Dit boek neemt de lezer mee in de gevechten van oktober 1944 in de dri
 tags: nav
 navtitle: Boek
 navorder: 4
-visual: homepage-header
+visual: nispen-wouw-roosendaal_03
 layout: boek
 ---
 
