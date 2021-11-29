@@ -44,7 +44,7 @@ visual: homepage-header
 	<script>
 		const swiper = new Swiper ('.swiper', {
 			loop: true,
-			autoHeight: true,
+			//autoHeight: true,
 			cssMode: true,
 
 			// If we need pagination
@@ -57,6 +57,10 @@ visual: homepage-header
 				nextEl: '.swiper-button-next',
 				prevEl: '.swiper-button-prev',
 			},
+
+			mousewheel: {
+				forceToAxis: true,
+			}
 		});
 	</script>
 

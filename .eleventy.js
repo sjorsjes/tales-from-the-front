@@ -25,6 +25,7 @@ module.exports = function (config) {
 	config.addLayoutAlias('tour',			'layouts/tour.njk');
 	config.addLayoutAlias('tourOverview',	'layouts/tour-overview.njk');
 	config.addLayoutAlias('content',		'layouts/content.njk');
+	config.addLayoutAlias('overOns',		'layouts/over-ons.njk');
 	config.addLayoutAlias('contact',		'layouts/contact.njk');
 
 	config.addFilter('formatDate', function (value) {

@@ -11,9 +11,6 @@
 | subtitle    | Page subtitle                           |
 | visual      | Visual for the page header              |
 | thumbnail   | Visual for the tours overview           |
-| tourdate    | Readable date for the next tour         |
-| date        | Datetime YYYY-MM-DD for the next tour   |
-| rendezvous  | Location where the tour starts          |
 | slug        | Friendly url slug (do not edit)         |
 | tags        | For the collection (do not edit)        |
 

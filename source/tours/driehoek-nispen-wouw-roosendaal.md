@@ -1,26 +1,17 @@
 ---
 title: Vier dagen Hel! De strijd in de Driehoek Nispen, Wouw, Roosendaal
 subtitle:
-visual: de-nederlandse-commandos-in-de-slag-om-de-schelde_01
-thumbnail: de-nederlandse-commandos-in-de-slag-om-de-schelde_03-320w
-tourdate: In samenspraak met de groep
-rendezvous: Bevrijdingsmuseum Zeeland
+visual: nispen-wouw-roosendaal_03
+thumbnail: nispen-wouw-roosendaal_03-320w
 slug: driehoek-nispen-wouw-roosendaal
 tags: tours
 
-duration: 6 uur
-extras: 'incl. uitgebreide excursiegids'
-guides: ['Dré', 'Richard']
-lunch: Incl. lunch in Bevrijdingsmuseum Zeeland
-minimumAge: 16
-transport: Ja, met touringcar / combi bus
-
 gallery:
-- de-nederlandse-commandos-in-de-slag-om-de-schelde_01
-- de-nederlandse-commandos-in-de-slag-om-de-schelde_02
-- de-nederlandse-commandos-in-de-slag-om-de-schelde_03
-- de-nederlandse-commandos-in-de-slag-om-de-schelde_04
-- de-nederlandse-commandos-in-de-slag-om-de-schelde_05
+- nispen-wouw-roosendaal_01
+- nispen-wouw-roosendaal_02
+- nispen-wouw-roosendaal_03
+- nispen-wouw-roosendaal_04
+- nispen-wouw-roosendaal_05
 
 ---
 

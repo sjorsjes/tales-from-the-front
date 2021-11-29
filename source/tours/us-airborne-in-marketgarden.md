@@ -3,17 +3,8 @@ title: US Airborne in Market Garden
 subtitle:
 visual: us-airborne-in-market-garden_06
 thumbnail: us-airborne-in-market-garden_06-320w
-tourdate: In samenspraak met de groep
-rendezvous: Bevrijdingsmuseum Zeeland
 slug: de-nederlandse-commandos-in-de-slag-om-de-schelde
 tags: tours
-
-duration: 6 uur
-extras: 'incl. uitgebreide excursiegids'
-guides: ['Dré', 'Richard']
-lunch: Incl. lunch in Bevrijdingsmuseum Zeeland
-minimumAge: 16
-transport: Ja, met touringcar / combi bus
 
 gallery:
 - us-airborne-in-market-garden_01
