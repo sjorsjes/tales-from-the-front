@@ -4,6 +4,18 @@
 	margin-bottom: var(--distance-m);
 }
 
+@media (--medium) {
+	.form__group {
+		display: flex;
+		gap: var(--distance-l);
+	}
+
+	.form__group .form__row {
+		width: 50%;
+	}
+}
+
+
 .form__loader-img {
 	display: inline-block;
 
@@ -95,3 +107,4 @@ input:invalid:not(:focus):not(:placeholder-shown) {
 .required {
 	color: var(--color-red);
 }
+
