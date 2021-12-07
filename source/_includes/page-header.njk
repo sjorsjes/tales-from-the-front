@@ -18,15 +18,7 @@
 		src="{{ "/" | url }}img/visuals/{{ visual | safe }}-1980w.jpg"
 		alt="">
 
-	{% if collections.upcomingTour.length > 0 %}
-		<a href="{{ tour.url | url }}" class="page-header__upcoming-event">
-			<span class="page-header__upcoming-event__title">
-				De volgende tour, "{{ collections.upcomingTour[0].data.title }}", is op <span class="nobreak">{{ collections.upcomingTour[0].date | formatDate }}.</span>
-			</span>
-		</a>
-	{% else %}
-		<a href="{{ "/" | url }}contact" class="page-header__upcoming-event">
-			<span class="page-header__upcoming-event__title">Wilt u ook op tour met <span class="nobreak">Tales from the front?</span></span>
-		</a>
-	{% endif %}
+	<a href="{{ "/" | url }}boek" class="page-header__upcoming-event">
+		<span class="page-header__upcoming-event__title">Bestel hier boek<br>“Vier Dagen Hel”<br>voor maar €32,50<br><small><em>ex. verzendkosten</em></small></span>
+	</a>
 </div>

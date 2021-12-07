@@ -8,7 +8,7 @@ navorder: 0
 ---
 
 Arnhem, Nijmegen, Overloon en Zeeland, dat waren de slagvelden in Nederland in 1944. Wat gebeurde er nu voor de rest in Nederland? Niet veel toch?  
-We bestudeerden veel militair-historische boeken over de gevechten in het zuiden van Nederland en moesten ons beeld bijstellen.
+We bestudeerden veel militair-historisch archiefmateriaal over de gevechten in het zuiden van Nederland en moesten ons beeld bijstellen.
 
 Er waren volop harde gevechten met veel (burger)slachtoffers die voor velen in de loop der tijd zijn vergeten.
 Om deze gevechten de aandacht te geven die ze verdienen besloten wij ons hierin te specialiseren. Vanwege het bestuderen van geallieerd en Duits archiefmateriaal en burgerooggetuigen kunnen we een uitgebreid aanbod van Battlefield Tours aanbieden.

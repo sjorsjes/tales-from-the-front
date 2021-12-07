@@ -3,7 +3,7 @@ title: Tour op maat
 subtitle: Wil je een speciale Battlefield Tour voor jezelf of voor jouw groep, op een door jou gekozen plaats? Dan ben je bij ons aan het juiste adres.
 tags: nav
 navtitle: tour op maat
-navorder: 2
+navorder: 3
 visual: homepage-header
 layout: content
 ---

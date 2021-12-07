@@ -3,7 +3,7 @@ title: Tours
 subtitle: We dachten eigenlijk dat er dicht bij onze woonplaats maar weinig was gevochten in vergelijking met bijvoorbeeld Overloon en Nijmegen.
 tags: nav
 navtitle: tours
-navorder: 1
+navorder: 2
 visual: homepage-header
 layout: tourOverview
 ---
