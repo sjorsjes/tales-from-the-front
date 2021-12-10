@@ -11,7 +11,7 @@ layout: boek
 >*“Onze inschatting dat de Duitsers hun afweer goed georganiseerd hadden was juist gebleken. Ze leken overal Sturmgeschütze te hebben.”*  
 **Een Britse tanksoldaat tijdens de gevechten ten zuiden van Roosendaal.**
 
-De titel “Vier dagen hel” is mogelijk een te krachtige titel, maar de autheurs Richard en André, beiden ervaren militairen, hebben hun mening over de gevechten rond Roosendaal moeten bijstellen.
+De titel “Vier dagen hel” is mogelijk een te krachtige titel, maar de auteurs Richard en André, beiden ervaren militairen, hebben hun mening over de gevechten rond Roosendaal moeten bijstellen.
 
 De strijd in het kader van Operation Suitcase en Thruster, op de flank van “De slag om de Schelde” was heviger dan eerst gedacht. Na jaren onderzoek naar de acties in de Nederlands - Belgische grensstreek, aangevuld met een grote kennis van de omgeving en de locaties waar de gevechten plaatsvonden, is een duidelijk en overzichtelijk boek ontstaan.
 
