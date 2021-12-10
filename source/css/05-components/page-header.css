@@ -66,13 +66,16 @@
 }
 
 /* --------------------------------------------- */
-/* UPCOMING EVENT */
+/* BOOK */
 /* --------------------------------------------- */
-.page-header__upcoming-event {
+.page-header__book {
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	left: 0;
+
+	display: flex;
+	gap: var(--distance-m);
 
 	padding: var(--distance-s) var(--distance-m);
 
@@ -84,7 +87,13 @@
 	background-color: var(--color-black);
 }
 
-.page-header__upcoming-event:hover {
+.page-header__book__visual {
+	transform: rotate(-2deg);
+
+	max-width: 60px;
+}
+
+.page-header__book:hover {
 	color: var(--color-white);
 
 	background-color: rgb(46, 59, 39, 0.8);
@@ -120,14 +129,14 @@
 		font-size: var(--font-size-l);
 	}
 
-	.page-header__upcoming-event {
+	.page-header__book {
 		max-width: 300px;
 		padding: var(--distance-l);
 	}
 }
 
 @media (--large) {
-	.page-header__upcoming-event {
+	.page-header__book {
 		right: 5vw;
 		left: auto;
 	}

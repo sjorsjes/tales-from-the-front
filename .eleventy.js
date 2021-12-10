@@ -38,14 +38,6 @@ module.exports = function (config) {
 		return `${day}-${month}-${year}`;
 	});
 
-	config.addCollection('upcomingTour', function (collection) {
-		const col = collection.getFilteredByTag('tours');
-		const last = col[col.length - 1];
-		const hasUpcomingTour = Date.now() < new Date(last.data.date).getTime();
-
-		return hasUpcomingTour ? [last] : [];
-	});
-
 	config.addCollection('myTours', collection => addPrevNext(collection.getFilteredByTag('tours')));
 
 	config.addCollection('myNav', function (collection) {
