@@ -92,12 +92,14 @@
 .page-header__book__visual {
 	transform: rotate(-2deg);
 
-	max-width: 80px;
+	max-width: 100px;
+	padding: 0 var(--distance-m);
 }
 
 .page-header__book span {
 	display: block;
 
+	white-space: nowrap;
 	text-align: center;
 }
 
@@ -135,7 +137,7 @@
 	.page-header__book {
 		left: auto;
 
-		max-width: 300px;
+		max-width: 400px;
 		padding: var(--distance-l);
 	}
 }
@@ -145,10 +147,18 @@
 		right: 5vw;
 		left: auto;
 	}
+
+	.page-header__book__visual {
+		max-width: 120px;
+	}
 }
 
 @media (--xlarge) {
 	.page-header {
 		height: 80vh;
+	}
+
+	.page-header__book__visual {
+		max-width: 160px;
 	}
 }
