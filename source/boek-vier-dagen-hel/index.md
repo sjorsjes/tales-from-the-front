@@ -16,4 +16,4 @@ De titel “Vier dagen hel” is mogelijk een te krachtige titel, maar de autheu
 Formaat A4, hardcover, 211 pagina’s en 187 foto’s, kaarten  
 Uitgeverij Tales From The Front
 
-<sup>**ex. verzendkosten à €6,75*</sup>
+<sup>**excl. verzendkosten à €6,75*</sup>
