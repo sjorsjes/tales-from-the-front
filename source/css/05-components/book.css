@@ -10,6 +10,10 @@
 	background-color: var(--color-white);
 }
 
+.book_item--small {
+	max-width: 320px;
+}
+
 .book_item--book {
 	padding: var(--distance-m);
 }
