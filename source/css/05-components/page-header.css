@@ -9,7 +9,7 @@
 .page-header__content {
 	position: absolute;
 	right: 5vw;
-	bottom: calc(var(--distance-xxl) * 2);
+	bottom: calc(var(--distance-xxl) * 4);
 	left: 5vw;
 
 	z-index: 1;
@@ -75,6 +75,8 @@
 	left: 0;
 
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	gap: var(--distance-m);
 
 	padding: var(--distance-s) var(--distance-m);
@@ -90,7 +92,13 @@
 .page-header__book__visual {
 	transform: rotate(-2deg);
 
-	max-width: 60px;
+	max-width: 80px;
+}
+
+.page-header__book span {
+	display: block;
+
+	text-align: center;
 }
 
 .page-header__book:hover {
@@ -102,7 +110,7 @@
 @media (--small) {
 	.page-header__content {
 		top: auto;
-		bottom: 25%;
+		bottom: 35%;
 	}
 
 	.page-header__subtitle {
@@ -116,11 +124,6 @@
 		min-height: 500px;
 	}
 
-	.page-header__content {
-		top: auto;
-		bottom: 25%;
-	}
-
 	.page-header__title {
 		font-size: var(--font-size-xxl);
 	}
@@ -130,6 +133,8 @@
 	}
 
 	.page-header__book {
+		left: auto;
+
 		max-width: 300px;
 		padding: var(--distance-l);
 	}
