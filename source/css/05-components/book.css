@@ -1,10 +1,9 @@
 .book {
 	position: relative;
-	display: flex;
 }
 
 .book_item {
-	width: 50%;
+	width: 100%;
 	padding-left: var(--distance-m);
 
 	background-color: var(--color-white);
@@ -21,8 +20,8 @@
 
 .book_price {
 	position: absolute;
-	top: 30%;
-	left: -50px;
+	top: 32%;
+	left: -10px;
 	z-index: 999;
 
 	transform: rotate(-10deg);
@@ -61,11 +60,22 @@
 }
 
 @media (--medium) {
+	.book {
+		display: flex;
+	}
+
 	.book_item {
+		width: 50%;
+
 		padding-left: var(--distance-l);
 	}
 
 	.book_item--book {
 		padding: var(--distance-l);
+	}
+
+	.book_price {
+		top: 30%;
+		left: -50px;
 	}
 }
