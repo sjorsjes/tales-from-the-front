@@ -61,5 +61,5 @@ module.exports = function (config) {
 	config.addPassthroughCopy('./source/files');
 	config.addPassthroughCopy('./source/favicon.ico');
 	config.addPassthroughCopy('./source/sitemap.xml');
-	config.addPassthroughCopy('./source/CNAME');
+	config.addPassthroughCopy('./CNAME');
 };
