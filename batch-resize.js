@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const sharp = require('sharp');
 
 const inputDirectory = './source/img/visuals';
@@ -11,6 +12,10 @@ const checkDir = (dir) => {
 	if (!fs.existsSync(dir)) {
 		fs.mkdirSync(dir, { recursive: true });
 	}
+
+	console.log(__dirname);
+	console.log(process.cwd());
+	console.log(path.join(__dirname, outputDirectory))
 }
 
 const resizeImage = async (fileName, fileSize) => {
