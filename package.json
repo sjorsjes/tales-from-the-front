@@ -19,7 +19,7 @@
     "build": "run-p build:css build:eleventy build:images",
     "build:css": "postcss ./source/css/main.css --map --output ./source/css/main.min.css",
     "build:eleventy": "eleventy --input=source --output=dist",
-    "build:images": "batch-image-resizer --input ./source/img/visuals --output ./dist/img/visuals --sizes \"[320, 1100, 1650, 1980]\"",
+    "build:images": "node batch-resize.js",
     "browserlist": "npx browserslist@latest --update-db"
   },
   "devDependencies": {
