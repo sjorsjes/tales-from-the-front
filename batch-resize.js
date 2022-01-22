@@ -12,6 +12,8 @@ const resizeImage = async (fileName, fileSize) => {
 		? fileName.replace(/(\.[\w\d_-]+)$/i, `-${fileSize}w$1`)
 		: fileName;
 
+	console.log('Resize ', name);
+
 	await sharp(`${inputDirectory}/${fileName}`)
 		.resize({ width: fileSize })
 		.toFile(`${outputDirectory}/${name}`);
