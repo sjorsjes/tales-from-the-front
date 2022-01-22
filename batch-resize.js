@@ -32,3 +32,5 @@ const processImages = async () => {
 }
 
 processImages();
+
+console.log('All files: ', fs.readdirSync(inputDirectory));
