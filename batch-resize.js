@@ -7,6 +7,16 @@ const outputDirectory = './dist/img/visuals';
 const fileSizes = [null, 320, 1100, 1650, 1980];
 const files = fs.readdirSync(inputDirectory);
 
+const resizeImage = async (fileName, fileSize) => {
+	const name = fileSize
+		? fileName.replace(/(\.[\w\d_-]+)$/i, `-${fileSize}w$1`)
+		: fileName;
+
+	await sharp(`${inputDirectory}/${fileName}`)
+		.resize({ width: fileSize })
+		.toFile(`${outputDirectory}/${name}`);
+}
+
 const processImages = async () => {
 	const resizePromises = [];
 
@@ -17,16 +27,6 @@ const processImages = async () => {
 	})
 
 	await Promise.allSettled(resizePromises);
-}
-
-const resizeImage = async (fileName, fileSize) => {
-	const name = fileSize
-		? fileName.replace(/(\.[\w\d_-]+)$/i, `-${fileSize}w$1`)
-		: fileName;
-
-	await sharp(`${inputDirectory}/${fileName}`)
-		.resize({ width: fileSize })
-		.toFile(`${outputDirectory}/${name}`);
 }
 
 processImages();
