@@ -18,4 +18,4 @@ De strijd in het kader van Operation Suitcase en Thruster, op de flank van “De
 Formaat A4, hardcover, 211 pagina’s en 187 foto’s, kaarten  
 Uitgeverij Tales From The Front
 
-<sup>**excl. verzendkosten à €6,75*</sup>
+<sup>**excl. verzendkosten à €6,75 binnen Nederland*</sup>
