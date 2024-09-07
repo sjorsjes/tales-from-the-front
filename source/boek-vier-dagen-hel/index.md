@@ -15,7 +15,7 @@ De titel “Vier dagen hel” is mogelijk een te krachtige titel, maar de auteur
 
 De strijd in het kader van Operation Suitcase en Thruster, op de flank van “De slag om de Schelde” was heviger dan eerst gedacht. Na jaren onderzoek naar de acties in de Nederlands - Belgische grensstreek, aangevuld met een grote kennis van de omgeving en de locaties waar de gevechten plaatsvonden, is een duidelijk en overzichtelijk boek ontstaan.
 
-Formaat A4, hardcover, 211 pagina’s en 187 foto’s, kaarten  
+Formaat A4, softcover, 211 pagina’s en 187 foto’s, kaarten  
 Uitgeverij Tales From The Front
 
 <sup>**excl. verzendkosten à €6,75 binnen Nederland*</sup>
